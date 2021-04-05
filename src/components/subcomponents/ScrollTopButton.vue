@@ -20,7 +20,6 @@ export default {
         handleScroll(){
             var x = document.getElementsByClassName("scroll-top")[0];
             if(window.scrollY >600){
-                console.log('SCROLLED')
                 x.style.display = "block";
             }
             else{x.style.display = "none";}
